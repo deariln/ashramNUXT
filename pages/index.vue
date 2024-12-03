@@ -84,8 +84,10 @@
                 </div>
             </div>
             <div class="button-cab">
-                <button class="but-cab">Подробнее</button>
-              </div>
+                <NuxtLink to="/cab_one" class="but-cab">
+                    Подробнее
+                </NuxtLink>
+            </div>
         </div>
         <div class="cab1">
             <div class="head-cab1">
