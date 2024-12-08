@@ -3,15 +3,12 @@
         Гримерный стол
     </h1>
     <Swiper :navigation="true" :modules="modules" class="mySwiper">
-    <SwiperSlide>Slide 1</SwiperSlide>
-    <SwiperSlide>Slide 2</SwiperSlide>
-    <SwiperSlide>Slide 3</SwiperSlide>
-    <SwiperSlide>Slide 4</SwiperSlide>
-    <SwiperSlide>Slide 5</SwiperSlide>
-    <SwiperSlide>Slide 6</SwiperSlide>
-    <SwiperSlide>Slide 7</SwiperSlide>
-    <SwiperSlide>Slide 8</SwiperSlide>
-    <SwiperSlide>Slide 9</SwiperSlide>
+    <SwiperSlide><img src="/public/photo/cab-one1.jpeg" alt="#"></SwiperSlide>
+    <SwiperSlide><img src="/public/photo/cab-one2.jpeg" alt="#"></SwiperSlide>
+    <SwiperSlide><img src="/public/photo/cab-one3.jpeg" alt="#"></SwiperSlide>
+    <SwiperSlide><img src="/public/photo/cab-one4.jpeg" alt="#"></SwiperSlide>
+    <SwiperSlide><img src="/public/photo/cab-one5.jpeg" alt="#"></SwiperSlide>
+    <SwiperSlide><img src="/public/photo/cab-one6.jpeg" alt="#"></SwiperSlide>
   </Swiper>
 </template>
 
@@ -38,6 +35,7 @@ const modules = [Navigation]
     background-color: gainsboro;
 }
 .mySwiper {
-    height: 300px;
+    height: 700px;
+    width: 700px;
 }
 </style>

@@ -158,8 +158,12 @@
                     Давайте сделаем наш коворкинг местом, куда приятно приходить каждый день.
                 </p>
                 <div class="button-rules">
-                    <button class="rules-button">Правила аренды</button>
-                    <button class="rules-button">Договор офферты</button>
+                    <NuxtLink to="/rules_one" class="rules-one">
+                        Правила аренды
+                   </NuxtLink>
+                   <NuxtLink to="/rules_two" class="rules-two">
+                    Договор офферты
+                   </NuxtLink>
                 </div>
             </div>
         </div>
