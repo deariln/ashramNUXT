@@ -1,6 +1,6 @@
 <template>
     <section id="main-page">
-        <div id="textpic">
+        <div class="textpic">
             <!-- <img src="photo/main.jpg" alt="main-logo" id="main-logo"> -->
             <div class="text">
                 <h1 class="h1">ASHRAM</h1>
@@ -65,16 +65,6 @@
                 <h1 class="h1-cab1">Гримерный зал</h1>
                 <p class="p-cab1">250 руб/час</p>
             </div>
-            <!-- <div class="cont-ul-cab1">
-                <ul class="ul-cab1">
-                    <li>2 гримерных места</li>
-                    <li> Расходные материалы входят в стоимость</li>
-                    <li>В гримерке стоит кулер</li>
-                    <li>Чай, кофе, вода, сладости</li>
-                    <li>Аренда хранения материалов</li>
-                    <li> Оборудование для фото и видео</li>
-                </ul>
-            </div> -->
             <div class="container-photo">
                 <div class="cab1-photo1">
                     <img class="img-cab1" src="/photo/ashram-4.jpg" alt="">
@@ -94,15 +84,6 @@
                 <h1 class="h1-cab1">Кабинет "Комфорт"</h1>
                 <p class="p-cab1">350 руб/час</p>
             </div>
-            <!-- <div class="cont-ul-cab1">
-                <ul class="ul-cab1">
-                    <li>Кушетка у которой поднимается спинка</li>
-                    <li>Гримерный стол</li>
-                    <li>Расходные материалы</li>
-                    <li>Аренда хранения материалов</li>
-                    <li> Оборудование для фото и видео</li>
-                </ul>
-            </div> -->
             <div class="container-photo">
                 <div class="cab1-photo1">
                     <img class="img-cab1" src="/photo/ashram-7.jpg" alt="">
@@ -120,16 +101,6 @@
                 <h1 class="h1-cab1">Кабинет "Стандарт"</h1>
                 <p class="p-cab1">300 руб/час</p>
             </div>
-            <!-- <div class="cont-ul-cab1">
-                <ul class="ul-cab1">
-                    <li>Гримерный стол</li>
-                    <li>Кушетка с вырезом для лица</li>
-                    <li>Мягкий ортопедический массаж</li>
-                    <li>Расходные материалы</li>
-                    <li>Аренда хранения материалов</li>
-                    <li>Оборудование для фото и видео</li>
-                </ul>
-            </div> -->
             <div class="container-photo">
                 <div class="cab1-photo1">
                     <img class="img-cab1" src="/photo/ashram-2.jpg" alt="">
