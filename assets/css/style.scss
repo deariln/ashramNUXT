@@ -134,7 +134,7 @@ nav {
   position: relative;
 }
 
-.cabs{
+.cabs {
   display: flex;
   flex-direction: column;
   padding: 30px;
@@ -185,7 +185,7 @@ nav {
   padding: 20px 100px;
   color: gray;
   text-align: center;
-  
+
 }
 
 .title-places {
@@ -216,26 +216,33 @@ nav {
   padding: 8px;
   font-size: 18px;
 }
+
 .photo-text-box {
   display: flex;
   align-items: stretch;
-  
+
 }
-.photo-img{
+
+.photo-img {
   width: 50%;
 }
+
 .photo-img img {
   width: 100%;
 }
 
-.icon {
+.window {
   background-color: rgb(214, 214, 214);
-  height: 50px;
   border-radius: 20px;
-  padding: 15px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.icon {
   display: flex;
   margin: 8px;
   font-size: 23px;
+  justify-content: space-between;
 }
 
 .img-qestions {
@@ -243,12 +250,22 @@ nav {
   border-radius: 30px;
   width: 40px;
   height: 40px;
-  position: absolute;
-  left: 1650px;
+}
+.answer {
+font-size: 17px;
+}
+
+.ul-answer{
+  list-style-type: none;
 }
 
 .places-question {
   padding: 50px;
+}
+.qwe-butt {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
 }
 .qestion {
   padding: 10px;
@@ -257,26 +274,26 @@ nav {
 
 .photo-g {
   width: 100%;
-	height: auto;
+  height: auto;
   padding: auto;
 }
 
-.photo-gallery{
+.photo-gallery {
   text-align: center;
-	margin: 0 0 20px 0;
-	overflow: hidden;    
+  margin: 0 0 20px 0;
+  overflow: hidden;
 }
 
 .photo-gallery a {
   width: 50%;
-	display: block;
-	float: left;
-	line-height: 0;
+  display: block;
+  float: left;
+  line-height: 0;
 }
 
 .hall {
   text-align: left;
-  background-color:rgb(255, 255, 255) ;
+  background-color: rgb(255, 255, 255);
   color: rgb(94, 94, 94);
   padding: 15px;
 }
@@ -344,15 +361,17 @@ nav {
 //   height: 30vh;
 // }
 
-.map-div{
+.map-div {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 100px;
 }
+
 .answers-page {
   padding: 50px;
 }
+
 .h1-rules {
   font-size: 30px;
   color: black;
@@ -366,6 +385,7 @@ nav {
   text-align: center;
   width: 800px;
 }
+
 .rules-cont {
   background-color: rgb(247, 247, 247);
   border-radius: 20px;
@@ -379,15 +399,17 @@ nav {
   padding: 8px;
   font-size: 18px;
   width: 500px;
-  
+
 }
+
 .button-rules {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 25px;
-  
+
 }
+
 .rules {
   display: flex;
   padding: 20px;
@@ -399,33 +421,40 @@ nav {
   background-size: cover;
   background-repeat: no-repeat; */
 }
+
 .cab1 {
   padding: 20px;
 }
-.head-cab1{
+
+.head-cab1 {
   text-align: center;
 }
 
-.h1-cab1{
+.h1-cab1 {
   font-size: 26px;
   color: rgb(46, 46, 46);
 }
+
 .p-cab1 {
   font-size: 25px;
   color: gray;
 }
+
 .container-photo {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .cab1-photo1 {
   margin: 10px;
 }
+
 .img-cab1 {
   max-width: 100%;
   height: auto;
 }
+
 .ul-cab1 {
   list-style: square;
   font-size: 25px;
@@ -434,6 +463,7 @@ nav {
   background-color: beige;
   padding: 9px;
 }
+
 .cont-ul-cab1 {
   padding: 20px;
   width: 500px;
@@ -443,7 +473,7 @@ nav {
   background-color: rgb(255, 255, 255);
 }
 
-.but-cab{
+.but-cab {
   color: rgb(70, 70, 70);
   background: transparent;
   border-radius: 20px;
@@ -456,7 +486,7 @@ nav {
   font-size: 18px;
 }
 
-.rules-one{
+.rules-one {
   color: rgb(70, 70, 70);
   background: transparent;
   border-radius: 20px;
@@ -467,6 +497,7 @@ nav {
   text-align: center;
   font-size: 18px;
 }
+
 .rules-two {
   color: rgb(70, 70, 70);
   background: transparent;
@@ -486,13 +517,14 @@ nav {
 }
 
 .map-div {
- text-align: left;
- padding: 20px;
+  text-align: left;
+  padding: 20px;
 }
 
-.h-map{
+.h-map {
   font-size: 20px;
 }
+
 /* .frame {
   display: flex;
   justify-content: left;
@@ -503,9 +535,9 @@ nav {
 .sec-contacts {
   background-color: gainsboro;
 }
+
 /* .ashram-map {
   width: 200px;
   display: flex;
   align-items: start;
 } */
- 
