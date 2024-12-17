@@ -6,14 +6,14 @@
                 <h1 class="h1">ASHRAM</h1>
                 <p>Почасовая аренда рабочего места для мастеров индустрии красоты</p>
                 <div>
-                    <button id="buttonpic1">Забронировать место</button>
-                    <button id="buttonpic2">Правила аренды</button>
+                    <button class="buttonpic1">Забронировать место</button>
+                    <a href="#rules" class="buttonpic2">Правила аренды</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <div id="service">
+    <div id="service" class="service">
         <h2 class="h2">Каталог услуг</h2>
         <p class="p-service">Раннее бронирование — по будням с 08:00 бесплатно</p>
         <!-- <img class="img-service" src="/photo/ashram.gray.jpg" alt="img"> -->
@@ -53,7 +53,7 @@
         </div>
     </section>
 
-    <section class="places-page">
+    <section id="places" class="places-page">
         <div class="places">
             <h3 class="h3">Рабочие места</h3>
             <p class="p-places-page">Выбирайте подходящее место и работайте с комфортом, не заботясь ни о чем, кроме
@@ -143,7 +143,7 @@
             </div>
         </div>
     </section>
-    <section class="rules-page">
+    <section id="rules" class="rules-page">
         <div class="rules">
             <div class="rules-cont">
                 <h1 class="h1-rules">Правила и договор аренды</h1>
@@ -170,7 +170,7 @@
 
     </section>
 
-    <section class="answers-page">
+    <section class="answers-page" id="qestion">
         <div class="h5">
             <h5>Ответы на частые вопросы</h5>
         </div>
@@ -328,7 +328,7 @@
             </div>
         </div>
     </section>
-    <section class="sec-contacts">
+    <section class="sec-contacts" id="contacts">
         <div class="map">
             <h1 class="h1-map">Контакты</h1>
             <!-- <div>

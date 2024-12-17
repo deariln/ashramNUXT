@@ -68,7 +68,7 @@ nav {
   color: rgb(0, 0, 0);
 }
 
-#buttonpic1 {
+.buttonpic1 {
   color: rgb(70, 70, 70);
   background: transparent;
   border-radius: 20px;
@@ -77,13 +77,16 @@ nav {
   width: 220px;
 }
 
-#buttonpic2 {
+.buttonpic2 {
   color: rgb(70, 70, 70);
   background: transparent;
   border-radius: 20px;
   padding: 8px;
   font-size: 18px;
-  width: 220px;
+  width: 240px;
+  border: 1px solid black;
+  text-decoration: none;
+  text-align: center;
 }
 
 .h1 {
@@ -91,7 +94,7 @@ nav {
   font-weight: 800;
 }
 
-#service {
+.service {
   font-size: 25px;
   padding: 20px;
   color: gray;
@@ -253,6 +256,7 @@ nav {
 }
 .answer {
 font-size: 17px;
+color: rgb(49, 49, 49);
 }
 
 .ul-answer{
