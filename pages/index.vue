@@ -1,10 +1,11 @@
 <template>
+    
     <section id="main-page">
         <div class="textpic">
             <!-- <img src="photo/main.jpg" alt="main-logo" id="main-logo"> -->
             <div class="text">
                 <h1 class="h1">ASHRAM</h1>
-                <p>Почасовая аренда рабочего места для мастеров индустрии красоты</p>
+                <p class="p-textpic">Почасовая аренда рабочего места для мастеров индустрии красоты</p>
                 <div>
                     <button class="buttonpic1">Забронировать место</button>
                     <a href="#rules" class="buttonpic2">Правила аренды</a>
@@ -15,7 +16,7 @@
 
     <div id="service" class="service">
         <h2 class="h2">Каталог услуг</h2>
-        <p class="p-service">Раннее бронирование — по будням с 08:00 бесплатно</p>
+        <!-- <p class="p-service">Раннее бронирование — по будням с 08:00 бесплатно</p> -->
         <!-- <img class="img-service" src="/photo/ashram.gray.jpg" alt="img"> -->
     </div>
     <section class="service-page">
@@ -29,7 +30,7 @@
             <div class="icons">
                 <div class="card">
                     <img class="img-icons" src="/photo/time.png" alt="time">
-                    <p class="text-p">Почасовая аренда или абонементы со скидкой до 20%</p>
+                    <p class="text-p">Почасовая аренда или  выгодные абонементы</p>
                 </div>
             </div>
             <div class="icons">
