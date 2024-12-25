@@ -113,7 +113,9 @@
                 </div>
             </div>
             <div class="button-cab">
-                <button class="but-cab">Подробнее</button>
+                <NuxtLink to="/cab_three" class="but-cab">
+                    Подробнее
+                </NuxtLink>
             </div>
         </div>
     </section>
