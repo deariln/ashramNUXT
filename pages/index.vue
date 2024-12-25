@@ -7,7 +7,7 @@
                 <h1 class="h1">ASHRAM</h1>
                 <p class="p-textpic">Почасовая аренда рабочего места для мастеров индустрии красоты</p>
                 <div>
-                    <button class="buttonpic1">Забронировать место</button>
+                    <a href="https://dikidi.ru/1041348?p=0.pi" class="buttonpic1">Забронировать место</a>
                     <a href="#rules" class="buttonpic2">Правила аренды</a>
                 </div>
             </div>
