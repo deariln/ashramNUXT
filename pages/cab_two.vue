@@ -1,22 +1,21 @@
 <template>
-    <h1 class="h1">
-        Гримерный стол
-    </h1>
+    <h2 class="h2">
+        Кабинет Комфорт
+    </h2>
     <div class="box">
         <Swiper :navigation="true" :modules="modules" class="mySwiper">
-            <SwiperSlide><img src="/public/photo/cab-one1.jpeg" alt="#"></SwiperSlide>
-            <SwiperSlide><img src="/public/photo/cab-one2.jpeg" alt="#"></SwiperSlide>
-            <SwiperSlide><img src="/public/photo/cab-one3.jpeg" alt="#"></SwiperSlide>
-            <SwiperSlide><img src="/public/photo/cab-one4.jpeg" alt="#"></SwiperSlide>
-            <SwiperSlide><img src="/public/photo/cab-one5.jpeg" alt="#"></SwiperSlide>
-            <SwiperSlide><img src="/public/photo/cab-one6.jpeg" alt="#"></SwiperSlide>
+            <SwiperSlide><img src="/public/photo/comfort-1.jpg" alt="#"></SwiperSlide>
+            <SwiperSlide><img src="/public/photo/comfort-2.jpg" alt="#"></SwiperSlide>
+            <SwiperSlide><img src="/public/photo/comfort-3.jpg" alt="#"></SwiperSlide>
+            <SwiperSlide><img src="/public/photo/comfort-4.jpg" alt="#"></SwiperSlide>
+            <SwiperSlide><img src="/public/photo/comfort-5.jpg" alt="#"></SwiperSlide>
+            <SwiperSlide><img src="/public/photo/comfort-6.jpg" alt="#"></SwiperSlide>
         </Swiper>
         <div class="div-ul">
             <ul class="ul-box">
-                <li>2 гримерных места</li>
-                <li>Расходные материалы входят в стоимость</li>
-                <li>В гримерке стоит кулер</li>
-                <li>Чай, кофе, вода, сладости</li>
+                <li>Кушетка у которой поднимается спинка</li>
+                <li>Гримерный стол</li>
+                <li>Расходные материалы</li>
                 <li>Аренда хранения материалов</li>
                 <li>Оборудование для фото и видео</li>
             </ul>
@@ -41,14 +40,6 @@ const modules = [Navigation]
 </script>
 
 <style scoped>
-.h1 {
-    font-size: 20px;
-    text-align: center;
-    padding: 20px;
-    background-color: gainsboro;
-    color: black;
-}
-
 .mySwiper {
     height: 700px;
     width: 700px;
@@ -76,5 +67,11 @@ const modules = [Navigation]
 .ul-box {
     font-size: 20px;
     list-style-type: disc;
+}
+.h2 {
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    background-color: gainsboro;
 }
 </style>
