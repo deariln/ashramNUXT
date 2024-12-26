@@ -50,6 +50,7 @@ nav {
   height: 88vh;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: bottom;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -238,7 +239,7 @@ color: rgb(49, 49, 49);
 }
 
 .h1-map {
-  font-size: 35px;
+  font-size: 25px;
   text-align: center;
   padding: 20px;
 }

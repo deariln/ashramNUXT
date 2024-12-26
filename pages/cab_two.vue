@@ -19,7 +19,9 @@
                 <li>Аренда хранения материалов</li>
                 <li>Оборудование для фото и видео</li>
             </ul>
-            <button class="box-button">На главную</button>
+            <NuxtLink to="/" class="box-button">
+                На главную
+                </NuxtLink>
         </div>
     </div>
 </template>
@@ -62,6 +64,9 @@ const modules = [Navigation]
     font-size: 18px;
     width: 200px;
     margin: 10px;
+    border: 1px solid black;
+    text-decoration: none;
+    text-align: center;
 }
 
 .ul-box {
