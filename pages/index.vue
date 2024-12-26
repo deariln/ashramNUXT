@@ -2,7 +2,6 @@
     
     <section id="main-page">
         <div class="textpic">
-            <!-- <img src="photo/main.jpg" alt="main-logo" id="main-logo"> -->
             <div class="text">
                 <h1 class="h1">ASHRAM</h1>
                 <p class="p-textpic">Почасовая аренда рабочего места для мастеров индустрии красоты</p>
@@ -16,8 +15,6 @@
 
     <div id="service" class="service">
         <h2 class="h2">Каталог услуг</h2>
-        <!-- <p class="p-service">Раннее бронирование — по будням с 08:00 бесплатно</p> -->
-        <!-- <img class="img-service" src="/photo/ashram.gray.jpg" alt="img"> -->
     </div>
     <section class="service-page">
         <div class="box-item">
@@ -307,9 +304,6 @@
     <section class="sec-contacts" id="contacts">
         <div class="map">
             <h1 class="h1-map">Контакты</h1>
-            <!-- <div>
-                <img class="ashram-map" src="/photo/logo.PNG" alt="">
-            </div> -->
             <div class="map-div">
                 <div class="h2-map">
                     <h2 class="h-map">Адрес</h2>
