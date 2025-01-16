@@ -74,9 +74,14 @@ const modules = [Navigation]
     list-style-type: disc;
 }
 .h3 {
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
     padding: 20px;
-    background-color: gainsboro;
+    background-color: rgb(255, 255, 255);
+}
+
+.div-ul {
+    display: flex;
+    flex-direction: column;
 }
 </style>

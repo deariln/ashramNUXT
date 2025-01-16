@@ -1,6 +1,7 @@
 <template>
     
     <section id="main-page">
+        
         <div class="textpic">
             <div class="text">
                 <h1 class="h1">ASHRAM</h1>

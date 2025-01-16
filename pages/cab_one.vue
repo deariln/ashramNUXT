@@ -40,14 +40,16 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 const modules = [Navigation]
 
+
+
 </script>
 
 <style scoped>
 .h1 {
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
     padding: 20px;
-    background-color: gainsboro;
+    background-color: rgb(255, 255, 255);
     color: black;
 }
 
@@ -76,10 +78,17 @@ const modules = [Navigation]
     border: 1px solid black;
     text-decoration: none;
     text-align: center;
+    margin-top: 20px;
 }
+
 
 .ul-box {
     font-size: 20px;
     list-style-type: disc;
+}
+
+.div-ul {
+    display: flex;
+    flex-direction: column;
 }
 </style>
