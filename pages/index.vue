@@ -1,19 +1,18 @@
 <template>
     
     <section id="main-page">
-        
         <div class="textpic">
             <div class="text">
                 <h1 class="h1">ASHRAM</h1>
                 <p class="p-textpic">Почасовая аренда рабочего места для мастеров индустрии красоты</p>
-                <div>
+                <div class="but-main_page">
                     <a href="https://dikidi.ru/1041348?p=0.pi" class="buttonpic1">Забронировать место</a>
                     <a href="#rules" class="buttonpic2">Правила аренды</a>
                 </div>
             </div>
         </div>
     </section>
-
+<!-- 
     <div id="service" class="service">
         <h2 class="h2">Каталог услуг</h2>
     </div>
@@ -50,72 +49,108 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <section id="places" class="places-page">
-        <div class="places">
-            <h3 class="h3">Рабочие места</h3>
-            <p class="p-places-page">Выбирайте подходящее место и работайте с комфортом, не заботясь ни о чем, кроме
-                своего любимого дела.
-                Мы уже продумали все необходимое для вашей продуктивной работы!</p>
+        <div>
+            <h1 class="h1-for_places">
+                Рабочие места
+            </h1>
         </div>
-        <div class="cab1">
-            <div class="head-cab1">
-                <h1 class="h1-cab1">Гримерный зал</h1>
-                <p class="p-cab1">250 руб/час</p>
-            </div>
-            <div class="container-photo">
-                <div class="cab1-photo1">
-                    <img class="img-cab1" src="/photo/ashram-4.jpg" alt="">
-                </div>
-                <div class="cab1-photo1">
-                    <img class="img-cab1" src="/photo/ashram-5.jpg" alt="">
-                </div>
-            </div>
-            <div class="button-cab">
+        <div class="container-places">
+            <div class="places-card">
+              <img class="places-card-image" src="/public/photo/place-card-1.jpeg" alt="#">
+              <div class="plasec-list_text">
+                  <h1 class="places-tittle">Гримерный зал</h1>
+                  <p class="plasec-list_desc">250 руб/час</p>
+              </div>
+              <div class="button-cab">
                 <NuxtLink to="/cab_one" class="but-cab">
                     Подробнее
                 </NuxtLink>
+            </div> 
             </div>
-        </div>
-        <div class="cab1">
-            <div class="head-cab1">
-                <h1 class="h1-cab1">Кабинет "Комфорт"</h1>
-                <p class="p-cab1">350 руб/час</p>
-            </div>
-            <div class="container-photo">
-                <div class="cab1-photo1">
-                    <img class="img-cab1" src="/photo/ashram-7.jpg" alt="">
-                </div>
-                <div class="cab1-photo1">
-                    <img class="img-cab1" src="/photo/ashram-3.jpg" alt="">
-                </div>
+            <div class="places-card">
+              <img class="places-card-image" src="/public/photo/place-card-2.jpeg" alt="#">
+              <div class="plasec-list_text">
+              <h1 class="places-tittle">Кабинет "Комфорт"</h1>
+              <p class="plasec-list_desc">350 руб/час</p>
             </div>
             <div class="button-cab">
                 <NuxtLink to="/cab_two" class="but-cab">
                     Подробнее
                 </NuxtLink>
+            </div> 
             </div>
-        </div>
-        <div class="cab1">
-            <div class="head-cab1">
-                <h1 class="h1-cab1">Кабинет "Стандарт"</h1>
-                <p class="p-cab1">300 руб/час</p>
+            <div class="places-card">
+              <img class="places-card-image" src="/public/photo/place-card-3.jpeg" alt="#">
+              <div class="plasec-list_text">
+              <h1 class="places-tittle">Кабинет "Стандарт"</h1>
+              <p class="plasec-list_desc">300 руб/час</p>
             </div>
-            <div class="container-photo">
-                <div class="cab1-photo1">
-                    <img class="img-cab1" src="/photo/ashram-2.jpg" alt="">
-                </div>
-                <div class="cab1-photo1">
-                    <img class="img-cab1" src="/photo/ashram-5.jpg" alt="">
-                </div>
-            </div>
-            <div class="button-cab">
+               <div class="button-cab">
                 <NuxtLink to="/cab_three" class="but-cab">
                     Подробнее
                 </NuxtLink>
+            </div> 
             </div>
         </div>
+
+
+        <!-- <div class="places">
+            <h3 class="h3">Рабочие места</h3>
+            <p class="p-places-page">Выбирайте подходящее место и работайте с комфортом, не заботясь ни о чем, кроме
+                своего любимого дела.
+                Мы уже продумали все необходимое для вашей продуктивной работы!</p>
+        </div>
+        <div class="cab1"> -->
+            <!-- <div class="head-cab1">
+                <h1 class="h1-cab1">Гримерный зал</h1>
+                <p class="p-cab1">250 руб/час</p>
+            </div> -->
+            <!-- <div class="container-photo-1">
+                <div class="cab1-photo1">
+                    <img class="img-cab1" src="/photo/ashram-4.jpg" alt="">
+                </div>
+            </div> -->
+            <!-- <div class="button-cab">
+                <NuxtLink to="/cab_one" class="but-cab">
+                    Подробнее
+                </NuxtLink>
+            </div> -->
+        <!-- </div>
+        <div class="cab1"> -->
+            <!-- <div class="head-cab1">
+                <h1 class="h1-cab1">Кабинет "Комфорт"</h1>
+                <p class="p-cab1">350 руб/час</p>
+            </div> -->
+            <!-- <div class="container-photo-2">
+                <div class="cab2-photo2">
+                    <img class="img-cab2" src="/photo/ashram-7.jpg" alt="">
+                </div>
+            </div> -->
+            <!-- <div class="button-cab">
+                <NuxtLink to="/cab_two" class="but-cab">
+                    Подробнее
+                </NuxtLink>
+            </div> -->
+        <!-- </div>
+        <div class="cab1"> -->
+            <!-- <div class="head-cab1">
+                <h1 class="h1-cab1">Кабинет "Стандарт"</h1>
+                <p class="p-cab1">300 руб/час</p>
+            </div> -->
+            <!-- <div class="container-photo-3">
+                <div class="cab3-photo3">
+                    <img class="img-cab3" src="/photo/ashram-2.jpg" alt="">
+                </div>
+            </div> -->
+            <!-- <div class="button-cab">
+                <NuxtLink to="/cab_three" class="but-cab">
+                    Подробнее
+                </NuxtLink>
+            </div> -->
+        <!-- </div> -->
     </section>
     <section id="rules" class="rules-page">
         <div class="rules">

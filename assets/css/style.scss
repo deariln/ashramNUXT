@@ -47,7 +47,7 @@ nav {
 
 
 .textpic {
-  background-image: url(/public/photo/ashram-elka.jpg);
+  background-image: url(/public/photo/logo-main-3.jpeg);
   height: 88vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -56,20 +56,22 @@ nav {
   align-items: center;
   justify-content: center;
   padding: 20px;
+ 
 }
 
 .text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  font-size: 55px;
-  gap: 25px;
-  color: rgb(0, 0, 0);
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: center;
+  // text-align: center;
+  // font-size: 55px;
+  // gap: 25px;
+  // color: rgb(0, 0, 0);
+  width: 600px;
 }
 
 .buttonpic1 {
-  color: rgb(255, 255, 255);
+  color: rgb(104, 104, 104);
   background: transparent;
   border-radius: 20px;
   padding: 8px;
@@ -81,7 +83,7 @@ nav {
 }
 
 .buttonpic2 {
-  color: rgb(255, 255, 255);
+  color: rgb(104, 104, 104);
   background: transparent;
   border-radius: 20px;
   padding: 8px;
@@ -90,17 +92,20 @@ nav {
   border: 1px solid black;
   text-decoration: none;
   text-align: center;
+  
 }
+
 
 .h1 {
   font-size: 60px;
   font-weight: 800;
-  color: white;
+  color: rgb(104, 104, 104);
 }
 
 .p-textpic{
   font-size: 25px;
-  color: white;
+  color: rgb(104, 104, 104);
+  margin: 35px 0;
 }
 
 .service {
@@ -170,6 +175,12 @@ nav {
   color: gray;
   text-align: center;
 
+}
+
+.h1-for_places{
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
 }
 
 .h3 {
@@ -334,19 +345,39 @@ color: rgb(49, 49, 49);
   color: gray;
 }
 
-.container-photo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+// .container-photo-1 {
+//   // display: flex;
+//   // justify-content: center;
+//   // align-items: center;
+// }
 
 .cab1-photo1 {
   margin: 10px;
 }
 
+.cab2-photo2 {
+  margin: 10px;
+}
+.cab3-photo3 {
+  margin: 10px;
+}
+
 .img-cab1 {
-  max-width: 100%;
-  height: auto;
+  width: 400px;
+ display: flex;
+ align-items: end;
+}
+
+.img-cab2{
+  width: 400px;
+  display: flex;
+  align-items: center;
+}
+
+.img-cab3{
+  width: 400px;
+  display: flex;
+  align-items: end;
 }
 
 .ul-cab1 {
@@ -362,6 +393,52 @@ color: rgb(49, 49, 49);
   padding: 20px;
   width: 500px;
 }
+
+.places-page{
+padding: 100px 0;
+}
+
+.container-places{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 50px 30px;
+}
+
+.places-card{
+width: 300px;
+background-color: rgb(204, 204, 204);
+border-radius: 10px;
+overflow: hidden;
+}
+
+.places-card-image{
+  max-width: 100%;
+  height: 200px;
+  width: 300px;
+  object-fit: cover;
+}
+
+.places-tittle{
+font-size: 20px;
+text-align: center;
+margin-bottom: 13px;
+}
+
+.plasec-list_desc{
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+color: rgb(89, 89, 89);
+font-weight: 400;
+opacity: 0.7;
+}
+
+.plasec-list_text{
+  padding: 20px 10px;
+}
+
+
 
 .sec-contacts {
   background-color: rgb(255, 255, 255);
