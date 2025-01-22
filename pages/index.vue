@@ -3,7 +3,7 @@
     <section id="main-page">
         <div class="textpic">
             <div class="text">
-                <h1 class="h1">ASHRAM</h1>
+                <p class="h1">ASHRAM</p>
                 <p class="p-textpic">Почасовая аренда рабочего места для мастеров индустрии красоты</p>
                 <div class="but-main_page">
                     <a href="https://dikidi.ru/1041348?p=0.pi" class="buttonpic1">Забронировать место</a>
@@ -159,7 +159,7 @@
             </div>
             <div class="rules-images">
               <div class="text-inside_rules">
-                <h1 class="h1-rules_img">Правила и договор аренды</h1>
+                <p class="h1-rules_img">Правила и договор аренды</p>
                 <p class="p-rules_img">Мы стараемся создать комфортную атмосферу для наших мастеров и их клиентов.
                     Для этого в нашем пространстве предусмотрены простые правила пребывания. Они касаются бронирования,
                     поддержания чистоты, уважения к другим мастерам и ответственности за свои вещи и действия.
@@ -206,9 +206,37 @@
 
     </section>
 
+    <section class="sec-contacts" id="contacts">
+        <div class="map">
+            <h1 class="h1-map">Контакты</h1>
+            <div class="map-div">
+                <div class="h2-map">
+                    <h2 class="h-map">Адрес</h2>
+                    <p>Сочи,
+                        Курортный проспект 50/2,
+                        4 этаж</p>
+                </div>
+                <div class="h2-map">
+                    <h3 class="h-map">Время работы</h3>
+                    <p>Ежедневно с 9:00 до 22:00</p>
+                </div>
+                <div class="h2-map">
+                    <h4 class="h-map">Для связи</h4>
+                    <p>8 993 768 63 15 WA</p>
+                </div>
+            </div>
+            <!-- <div class="frame">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1445.218924660521!2d39.729501427567314!3d43.57659549638826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40f5cb904809aacb%3A0xc906e8fc9a1d7938!2z0JzQsNCz0L3QvtC70LjRjyDQvtGC0LXQu9GM!5e0!3m2!1sru!2sru!4v1731957633422!5m2!1sru!2sru"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div> -->
+        </div>
+    </section>
+
     <section class="answers-page" id="qestion">
         <div class="h5">
-            <h5>Ответы на частые вопросы</h5>
+            <p>Ответы на частые вопросы</p>
         </div>
         <div class="qestion">
             <div class="window">
@@ -364,33 +392,7 @@
             </div>
         </div>
     </section>
-    <section class="sec-contacts" id="contacts">
-        <div class="map">
-            <h1 class="h1-map">Контакты</h1>
-            <div class="map-div">
-                <div class="h2-map">
-                    <h2 class="h-map">Адрес</h2>
-                    <p>Сочи,
-                        Курортный проспект 50/2,
-                        4 этаж</p>
-                </div>
-                <div class="h2-map">
-                    <h3 class="h-map">Время работы</h3>
-                    <p>Ежедневно с 9:00 до 22:00</p>
-                </div>
-                <div class="h2-map">
-                    <h4 class="h-map">Для связи</h4>
-                    <p>8 993 768 63 15 WA</p>
-                </div>
-            </div>
-            <!-- <div class="frame">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1445.218924660521!2d39.729501427567314!3d43.57659549638826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40f5cb904809aacb%3A0xc906e8fc9a1d7938!2z0JzQsNCz0L3QvtC70LjRjyDQvtGC0LXQu9GM!5e0!3m2!1sru!2sru!4v1731957633422!5m2!1sru!2sru"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div> -->
-        </div>
-    </section>
+  
 </template>
 
 <script setup lang="ts">

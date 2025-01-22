@@ -1,7 +1,5 @@
 <template>
-    <h1 class="h1">
-        Гримерный стол
-    </h1>
+   
     <div class="box">
         <Swiper :navigation="true" :modules="modules" class="mySwiper">
             <SwiperSlide><img src="/public/photo/cab-one1.jpeg" alt="#"></SwiperSlide>
@@ -12,6 +10,9 @@
             <SwiperSlide><img src="/public/photo/cab-one6.jpeg" alt="#"></SwiperSlide>
         </Swiper>
         <div class="div-ul">
+            <p class="h1">
+        Гримерный стол
+            </p>
             <ul class="ul-box">
                 <li>2 гримерных места</li>
                 <li>Расходные материалы входят в стоимость</li>
@@ -47,10 +48,11 @@ const modules = [Navigation]
 <style scoped>
 .h1 {
     font-size: 30px;
-    text-align: center;
+    text-align: left;
     padding: 20px;
     background-color: rgb(255, 255, 255);
     color: black;
+    margin-left: 20px;
 }
 
 .mySwiper {
@@ -79,12 +81,14 @@ const modules = [Navigation]
     text-decoration: none;
     text-align: center;
     margin-top: 20px;
+    margin-left: 50px;
 }
 
 
 .ul-box {
     font-size: 20px;
     list-style-type: disc;
+    margin-left: 50px;
 }
 
 .div-ul {

@@ -1,7 +1,4 @@
 <template>
-    <h2 class="h2">
-        Кабинет Комфорт
-    </h2>
     <div class="box">
         <Swiper :navigation="true" :modules="modules" class="mySwiper">
             <SwiperSlide><img src="/public/photo/comfort-1.jpg" alt="#"></SwiperSlide>
@@ -12,6 +9,9 @@
             <SwiperSlide><img src="/public/photo/comfort-6.jpg" alt="#"></SwiperSlide>
         </Swiper>
         <div class="div-ul">
+            <p class="h2">
+        Кабинет Комфорт
+            </p>
             <ul class="ul-box">
                 <li>Кушетка у которой поднимается спинка</li>
                 <li>Гримерный стол</li>

@@ -1,7 +1,4 @@
 <template>
-    <h3 class="h3">
-        Кабинет Стандарт
-    </h3>
     <div class="box">
         <Swiper :navigation="true" :modules="modules" class="mySwiper">
             <SwiperSlide><img src="/public/photo/standart-1.jpg" alt="#"></SwiperSlide>
@@ -12,6 +9,9 @@
             <SwiperSlide><img src="/public/photo/cab-one6.jpeg" alt="#"></SwiperSlide>
         </Swiper>
         <div class="div-ul">
+            <p class="h3">
+        Кабинет Стандарт
+            </p>
             <ul class="ul-box">
                 <li>Гримерный стол</li>
                 <li>Кушетка с вырезом для лица</li>
