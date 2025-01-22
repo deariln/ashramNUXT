@@ -153,8 +153,35 @@
         <!-- </div> -->
     </section>
     <section id="rules" class="rules-page">
-        <div class="rules">
-            <div class="rules-cont">
+        <div class="rules-container">
+            <div class="rules-images">
+                <img class="img-for_rules" src="/public/photo/ashram-1.jpg" alt="">
+            </div>
+            <div class="rules-images">
+              <div class="text-inside_rules">
+                <h1 class="h1-rules_img">Правила и договор аренды</h1>
+                <p class="p-rules_img">Мы стараемся создать комфортную атмосферу для наших мастеров и их клиентов.
+                    Для этого в нашем пространстве предусмотрены простые правила пребывания. Они касаются бронирования,
+                    поддержания чистоты, уважения к другим мастерам и ответственности за свои вещи и действия.
+
+                    Пожалуйста, ознакомьтесь с полным текстом правил и договором оферты перед арендой. Бронируя место,
+                    вы
+                    автоматически принимаете все условия.
+
+                    Давайте сделаем наш коворкинг местом, куда приятно приходить каждый день.
+                </p>
+              </div>
+              <div class="button-rules_img">
+                    <NuxtLink to="/rules_one" class="rules-one">
+                        Правила аренды
+                    </NuxtLink>
+                    <NuxtLink to="/rules_two" class="rules-two">
+                        Договор офферты
+                    </NuxtLink>
+                </div>
+            </div>
+
+            <!-- <div class="rules-cont">
                 <h1 class="h1-rules">Правила и договор аренды</h1>
                 <p class="p-rules">Мы стараемся создать комфортную атмосферу для наших мастеров и их клиентов.
                     Для этого в нашем пространстве предусмотрены простые правила пребывания. Они касаются бронирования,
@@ -174,7 +201,7 @@
                         Договор офферты
                     </NuxtLink>
                 </div>
-            </div>
+            </div> -->
         </div>
 
     </section>
