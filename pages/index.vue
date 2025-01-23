@@ -128,27 +128,7 @@
 
     </section>
 
-    <section class="sec-contacts" id="contacts">
-        <div class="map">
-            <h1 class="h1-map">Контакты</h1>
-            <div class="map-div">
-                <div class="h2-map">
-                    <h2 class="h-map">Адрес</h2>
-                    <p>Сочи,
-                        Курортный проспект 50/2,
-                        4 этаж</p>
-                </div>
-                <div class="h2-map">
-                    <h3 class="h-map">Время работы</h3>
-                    <p>Ежедневно с 9:00 до 22:00</p>
-                </div>
-                <div class="h2-map">
-                    <h4 class="h-map">Для связи</h4>
-                    <p>8 993 768 63 15 WA</p>
-                </div>
-            </div>
-        </div>
-    </section>
+
 
     <section class="answers-page" id="qestion">
         <div class="h5">
@@ -304,6 +284,29 @@
                             рабочее место необходимо освободить для работы следующего мастера.</li>
                         <li>— Задержка рабочего места более 10 минут, оплачивается по тарифу аренды 30/60 мин</li>
                     </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sec-contacts" id="contacts">
+        <div class="map">
+            <h1 class="h1-map">Контакты</h1>
+            <hr>
+            <div class="map-div">
+                <div class="h2-map">
+                    <h2 class="h-map">Адрес</h2>
+                    <p>Сочи,
+                        Курортный проспект 50/2,
+                        4 этаж</p>
+                </div>
+                <div class="h2-map">
+                    <h3 class="h-map">Время работы</h3>
+                    <p>Ежедневно с 9:00 до 22:00</p>
+                </div>
+                <div class="h2-map">
+                    <h4 class="h-map">Для связи</h4>
+                    <p>8 993 768 63 15 WA</p>
                 </div>
             </div>
         </div>
