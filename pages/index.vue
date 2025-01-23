@@ -95,62 +95,6 @@
             </div> 
             </div>
         </div>
-
-
-        <!-- <div class="places">
-            <h3 class="h3">Рабочие места</h3>
-            <p class="p-places-page">Выбирайте подходящее место и работайте с комфортом, не заботясь ни о чем, кроме
-                своего любимого дела.
-                Мы уже продумали все необходимое для вашей продуктивной работы!</p>
-        </div>
-        <div class="cab1"> -->
-            <!-- <div class="head-cab1">
-                <h1 class="h1-cab1">Гримерный зал</h1>
-                <p class="p-cab1">250 руб/час</p>
-            </div> -->
-            <!-- <div class="container-photo-1">
-                <div class="cab1-photo1">
-                    <img class="img-cab1" src="/photo/ashram-4.jpg" alt="">
-                </div>
-            </div> -->
-            <!-- <div class="button-cab">
-                <NuxtLink to="/cab_one" class="but-cab">
-                    Подробнее
-                </NuxtLink>
-            </div> -->
-        <!-- </div>
-        <div class="cab1"> -->
-            <!-- <div class="head-cab1">
-                <h1 class="h1-cab1">Кабинет "Комфорт"</h1>
-                <p class="p-cab1">350 руб/час</p>
-            </div> -->
-            <!-- <div class="container-photo-2">
-                <div class="cab2-photo2">
-                    <img class="img-cab2" src="/photo/ashram-7.jpg" alt="">
-                </div>
-            </div> -->
-            <!-- <div class="button-cab">
-                <NuxtLink to="/cab_two" class="but-cab">
-                    Подробнее
-                </NuxtLink>
-            </div> -->
-        <!-- </div>
-        <div class="cab1"> -->
-            <!-- <div class="head-cab1">
-                <h1 class="h1-cab1">Кабинет "Стандарт"</h1>
-                <p class="p-cab1">300 руб/час</p>
-            </div> -->
-            <!-- <div class="container-photo-3">
-                <div class="cab3-photo3">
-                    <img class="img-cab3" src="/photo/ashram-2.jpg" alt="">
-                </div>
-            </div> -->
-            <!-- <div class="button-cab">
-                <NuxtLink to="/cab_three" class="but-cab">
-                    Подробнее
-                </NuxtLink>
-            </div> -->
-        <!-- </div> -->
     </section>
     <section id="rules" class="rules-page">
         <div class="rules-container">
@@ -180,28 +124,6 @@
                     </NuxtLink>
                 </div>
             </div>
-
-            <!-- <div class="rules-cont">
-                <h1 class="h1-rules">Правила и договор аренды</h1>
-                <p class="p-rules">Мы стараемся создать комфортную атмосферу для наших мастеров и их клиентов.
-                    Для этого в нашем пространстве предусмотрены простые правила пребывания. Они касаются бронирования,
-                    поддержания чистоты, уважения к другим мастерам и ответственности за свои вещи и действия.
-
-                    Пожалуйста, ознакомьтесь с полным текстом правил и договором оферты перед арендой. Бронируя место,
-                    вы
-                    автоматически принимаете все условия.
-
-                    Давайте сделаем наш коворкинг местом, куда приятно приходить каждый день.
-                </p>
-                <div class="button-rules">
-                    <NuxtLink to="/rules_one" class="rules-one">
-                        Правила аренды
-                    </NuxtLink>
-                    <NuxtLink to="/rules_two" class="rules-two">
-                        Договор офферты
-                    </NuxtLink>
-                </div>
-            </div> -->
         </div>
 
     </section>
@@ -225,12 +147,6 @@
                     <p>8 993 768 63 15 WA</p>
                 </div>
             </div>
-            <!-- <div class="frame">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1445.218924660521!2d39.729501427567314!3d43.57659549638826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40f5cb904809aacb%3A0xc906e8fc9a1d7938!2z0JzQsNCz0L3QvtC70LjRjyDQvtGC0LXQu9GM!5e0!3m2!1sru!2sru!4v1731957633422!5m2!1sru!2sru"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div> -->
         </div>
     </section>
 
