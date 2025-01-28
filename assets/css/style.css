@@ -69,15 +69,15 @@ nav {
 }
 
 .buttonpic1 {
-  // color: rgb(122, 122, 122);
-  // background: transparent;
-  // border-radius: 20px;
-  // padding: 8px;
-  // font-size: 18px;
-  // width: 240px;
-  // border: 1px solid black;
-  // text-decoration: none;
-  // text-align: center;
+  /* color: rgb(122, 122, 122);
+  background: transparent;
+  border-radius: 20px;
+  padding: 8px;
+  font-size: 18px;
+  width: 240px;
+  border: 1px solid black;
+  text-decoration: none;
+  text-align: center; */
   display: inline-block;	
 	box-sizing: border-box;
 	padding: 0 24px;
@@ -101,15 +101,15 @@ nav {
 }
 
 .buttonpic2 {
-  // color: rgb(104, 104, 104);
-  // background: transparent;
-  // border-radius: 20px;
-  // padding: 8px;
-  // font-size: 18px;
-  // width: 240px;
-  // border: 1px solid black;
-  // text-decoration: none;
-  // text-align: center;
+  /* color: rgb(104, 104, 104);
+  background: transparent;
+  border-radius: 20px;
+  padding: 8px;
+  font-size: 18px;
+  width: 240px;
+  border: 1px solid black;
+  text-decoration: none;
+  text-align: center; */
   display: inline-block;	
 	box-sizing: border-box;
 	padding: 0 24px;
@@ -144,7 +144,7 @@ nav {
   margin: 30px 0;
 }
 
-// .service {
+/* // .service {
 //   font-size: 25px;
 //   padding: 20px;
 //   color: gray;
@@ -197,7 +197,7 @@ nav {
 //   font-weight: 300;
 //   text-align: center;
 //   padding-left: 30px;
-// }
+// } */
 
 .places {
   font-size: 25px;
@@ -284,10 +284,10 @@ color: rgb(49, 49, 49);
   font-size: 20px;
 }
 
-// iframe {
+/* // iframe {
 //   width: 30vw;
 //   height: 30vh;
-// }
+// } */
 
 .map-div {
   display: flex;
@@ -380,7 +380,7 @@ margin-top: 150px;
 }
 
 .p-rules_img{
-  // font-size: 17px;
+  /* font-size: 17px; */
 line-height: 19px;
 text-align: center;
 color: rgb(0, 0, 0);
