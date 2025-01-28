@@ -10,4 +10,5 @@
 
 <style lang="scss">
 @use "~/assets/css/style.scss";
+@use "~/assets/css/media.css";
 </style>

@@ -38,7 +38,6 @@ nav {
 #logo {
   display: flex;
   width: 150px;
-  
 }
 
 .img-list {
@@ -254,7 +253,7 @@ color: rgb(49, 49, 49);
 }
 .qestion {
   padding: 10px;
-  width: 900px;
+  max-width: 900px;
   margin: 0 auto;
   /* background-color: rgb(206, 206, 206); */
 }
@@ -381,7 +380,7 @@ margin-top: 150px;
 }
 
 .p-rules_img{
-  font-size: 17px;
+  // font-size: 17px;
 line-height: 19px;
 text-align: center;
 color: rgb(0, 0, 0);
