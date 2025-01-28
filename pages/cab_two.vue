@@ -67,17 +67,21 @@ const modules = [Navigation]
     border: 1px solid black;
     text-decoration: none;
     text-align: center;
+    margin-top: 20px;
+    margin-left: 50px;
 }
 
 .ul-box {
     font-size: 20px;
     list-style-type: disc;
+    margin-left: 50px;
 }
 .h2 {
     font-size: 30px;
     text-align: center;
     padding: 20px;
     background-color: rgb(255, 255, 255);
+    margin-left: 20px;
 }
 
 .div-ul {
