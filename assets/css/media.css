@@ -27,6 +27,8 @@
     .map-div {
         flex-direction: column;
         gap: 15px;
+       align-items: start;
+        
     }
     .h1{
         font-size: 50px;
@@ -42,6 +44,16 @@
         font-size: 10px;
         padding: 0;
     }
-
+    .h1-rules_img{
+        font-size: 35px;
+        padding: 5px;
+    }
+    .p-rules_img{
+        font-size: 15px;
+        padding: 15px;
+    }
+    .button-rules_img{
+        padding: 20px;
+    }
 
 }
